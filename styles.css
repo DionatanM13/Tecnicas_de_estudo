@@ -1,8 +1,9 @@
 body {
     background-color: rgb(108, 44, 44);
-    background: url('img/fundo.jpg') no-repeat center center fixed;
+    background: url('img/fundo.jpg') no-repeat center center;
     background-size: cover;
     font-family: 'Roboto';
+    font-size: 1.1rem;
 }
 
 body::before {
@@ -37,4 +38,8 @@ nav ion-icon{
 
 section img{
     border-radius: 12px;
+}
+
+li{
+    list-style: none;
 }
